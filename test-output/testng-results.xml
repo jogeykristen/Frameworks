@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11271" started-at="2019-09-01T20:41:43 IST" finished-at="2019-09-01T20:41:54 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11271" started-at="2019-09-01T20:41:43 IST" finished-at="2019-09-01T20:41:54 IST">
+      <class name="com.learning.framework.tests.Test1">
+        <test-method status="PASS" signature="configureTests()[pri:0, instance:com.learning.framework.tests.Test1@d21a74c]" name="configureTests" is-config="true" duration-ms="3294" started-at="2019-09-01T20:41:43 IST" finished-at="2019-09-01T20:41:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureTests -->
+        <test-method status="PASS" signature="testing()[pri:0, instance:com.learning.framework.tests.Test1@d21a74c, instance params:[{browser=Chrome, Execution Flag=Yes, Test Case=Invalid Credentials, URL=https://www.flipkart.com/, Username=jogey, Password=123456.0, rowCount=1}]]" name="testing" duration-ms="6597" started-at="2019-09-01T20:41:46 IST" finished-at="2019-09-01T20:41:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="afterTests(org.testng.ITestResult)[pri:0, instance:com.learning.framework.tests.Test1@d21a74c]" name="afterTests" is-config="true" duration-ms="1349" started-at="2019-09-01T20:41:53 IST" finished-at="2019-09-01T20:41:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testing status=SUCCESS method=Test1.testing()[pri:0, instance:com.learning.framework.tests.Test1@d21a74c, instance params:[{browser=Chrome, Execution Flag=Yes, Test Case=Invalid Credentials, URL=https://www.flipkart.com/, Username=jogey, Password=123456.0, rowCount=1}]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- com.learning.framework.tests.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
